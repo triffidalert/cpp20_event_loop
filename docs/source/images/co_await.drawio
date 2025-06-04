@@ -1,0 +1,82 @@
+<mxfile host="Electron" modified="2025-06-04T13:27:11.500Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="-IlZ7idhEnAFB2hSk1oa" version="24.0.4" type="device">
+  <diagram name="Page-1" id="dcESC0Z4ThI4YNyc7HiC">
+    <mxGraphModel dx="819" dy="1326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bwZhihS0I2hApr9KTY_l-20" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="400" y="60" width="540" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="bwZhihS0I2hApr9KTY_l-10" value="" style="group" parent="bwZhihS0I2hApr9KTY_l-20" vertex="1" connectable="0">
+          <mxGeometry width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bwZhihS0I2hApr9KTY_l-1" value="&lt;font face=&quot;Courier New&quot;&gt;//&amp;nbsp;&lt;i&gt;some stuff&lt;/i&gt;&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;co_await awaitable()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;//&amp;nbsp;&lt;i&gt;some more stuff&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;" parent="bwZhihS0I2hApr9KTY_l-10" vertex="1">
+          <mxGeometry x="30" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bwZhihS0I2hApr9KTY_l-5" value="" style="endArrow=block;html=1;rounded=0;endFill=1;fillColor=#e51400;strokeColor=#B20000;" parent="bwZhihS0I2hApr9KTY_l-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="53" as="sourcePoint" />
+            <mxPoint x="29" y="53" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bwZhihS0I2hApr9KTY_l-11" value="" style="group" parent="bwZhihS0I2hApr9KTY_l-20" vertex="1" connectable="0">
+          <mxGeometry x="170" y="140" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bwZhihS0I2hApr9KTY_l-12" value="&lt;font face=&quot;Courier New&quot;&gt;//&amp;nbsp;&lt;i&gt;some stuff&lt;/i&gt;&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;co_await awaitable()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;//&amp;nbsp;&lt;i&gt;some more stuff&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;" parent="bwZhihS0I2hApr9KTY_l-11" vertex="1">
+          <mxGeometry x="30" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bwZhihS0I2hApr9KTY_l-13" value="" style="endArrow=block;html=1;rounded=0;endFill=1;fillColor=#e51400;strokeColor=#B20000;" parent="bwZhihS0I2hApr9KTY_l-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="53" as="sourcePoint" />
+            <mxPoint x="29" y="53" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bwZhihS0I2hApr9KTY_l-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;dashed=1;" parent="bwZhihS0I2hApr9KTY_l-20" source="bwZhihS0I2hApr9KTY_l-1" target="bwZhihS0I2hApr9KTY_l-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bwZhihS0I2hApr9KTY_l-16" value="" style="group" parent="bwZhihS0I2hApr9KTY_l-20" vertex="1" connectable="0">
+          <mxGeometry x="340" y="280" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bwZhihS0I2hApr9KTY_l-17" value="&lt;font face=&quot;Courier New&quot;&gt;//&amp;nbsp;&lt;i&gt;some stuff&lt;/i&gt;&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;co_await future_one&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;//&amp;nbsp;&lt;i&gt;some more stuff&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;co_await future_two&lt;/span&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;// &lt;i&gt;and more stuff&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;" parent="bwZhihS0I2hApr9KTY_l-16" vertex="1">
+          <mxGeometry x="30" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="bwZhihS0I2hApr9KTY_l-18" value="" style="endArrow=block;html=1;rounded=0;endFill=1;fillColor=#e51400;strokeColor=#B20000;" parent="bwZhihS0I2hApr9KTY_l-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="53" as="sourcePoint" />
+            <mxPoint x="29" y="53" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bwZhihS0I2hApr9KTY_l-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;dashed=1;" parent="bwZhihS0I2hApr9KTY_l-20" source="bwZhihS0I2hApr9KTY_l-12" target="bwZhihS0I2hApr9KTY_l-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KK4mSnRojwphyKfujAEd-10" value="Coroutine B" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=10;" parent="bwZhihS0I2hApr9KTY_l-20" vertex="1">
+          <mxGeometry x="200" y="110" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KK4mSnRojwphyKfujAEd-11" value="Coroutine C" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=10;" parent="bwZhihS0I2hApr9KTY_l-20" vertex="1">
+          <mxGeometry x="370" y="250" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KK4mSnRojwphyKfujAEd-2" value="&lt;font face=&quot;Courier New&quot;&gt;// &lt;i&gt;handle referring to Coroutine A&lt;/i&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; background-color: initial;&quot;&gt;std::coroutine_handle&amp;lt;P&amp;gt; h&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="160" width="320" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KK4mSnRojwphyKfujAEd-9" value="Coroutine A" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="430" y="30" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KK4mSnRojwphyKfujAEd-18" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="990" y="340" width="200" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="KK4mSnRojwphyKfujAEd-13" value="" style="group" parent="KK4mSnRojwphyKfujAEd-18" vertex="1" connectable="0">
+          <mxGeometry y="31" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KK4mSnRojwphyKfujAEd-14" value="&lt;div&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;done == false&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;" parent="KK4mSnRojwphyKfujAEd-13" vertex="1">
+          <mxGeometry x="30" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KK4mSnRojwphyKfujAEd-16" value="Future One" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=10;" parent="KK4mSnRojwphyKfujAEd-18" vertex="1">
+          <mxGeometry x="30" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rOmKL7geqSQUE6W6fO5Q-4" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;Future&amp;lt;int&amp;gt; future{};&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;awaitable g()&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;{&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; background-color: initial;&quot;&gt;&amp;nbsp; /* ... */&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; background-color: initial;&quot;&gt;&amp;nbsp; co_await future;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; background-color: initial;&quot;&gt;&amp;nbsp; /* ... */&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;}&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;void h&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;{&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; background-color: initial;&quot;&gt;&amp;nbsp; auto a = g();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;&amp;nbsp; a.send();&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;&amp;nbsp; future.set_result(22);&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;}&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-540" width="200" height="450" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
