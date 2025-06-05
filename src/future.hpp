@@ -17,7 +17,7 @@ namespace event_loop {
     T await_resume()
     {
       if( !done )
-	throw std::runtime_error("");
+	throw std::runtime_error("Future resumed when not done");
       else
 	return result;
     }

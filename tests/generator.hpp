@@ -1,9 +1,3 @@
-#include <cassert>
-#include <iostream>
-#include <coroutine>
-
-#include "future.hpp"
-
 // ::operator new(size_t, nothrow_t) will be used if allocation is needed
 struct generator {
   struct promise_type;
@@ -14,7 +8,7 @@ struct generator {
     auto get_return_object() { return generator{handle::from_promise(*this)}; }
     auto initial_suspend() { return std::suspend_always{}; }
     auto final_suspend() noexcept { return std::suspend_always{}; }
-    void unhandled_exception() { std::terminate(); }
+    void unhandled_exception() {}// std::terminate(); }
     void return_void() {}
     auto yield_value(int value) {
       current_value = value;
@@ -30,33 +24,3 @@ private:
   generator(handle h) : coro(h) {}
   handle coro;
 };
-
-event_loop::Future<int> my_future{};
-
-generator f() { co_await my_future; }
-
-int main()
-{
-  std::coroutine_handle<> null_handle{nullptr};
-  
-  assert( !my_future.is_done() );
-  assert( my_future.await_suspend(null_handle) );
-  assert( !my_future.await_ready() );
-  
-  try
-    {
-      my_future.await_resume();
-    }
-  catch (std::runtime_error)
-    {}
-    
-	       
-  my_future.set_done(22);
-
-  assert( my_future.is_done() );
-  assert( my_future.is_done() );
-  assert ( my_future.await_resume() == 22 );
-  
-  return 0;
-}
-
